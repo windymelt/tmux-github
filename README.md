@@ -52,6 +52,10 @@ set -g status-right '#{gh_status_description} | %a %h-%d %H:%M '
 
  - `#{gh_status_description}` - will show GitHub Status description message. e.g. `All Systems Operational`, `Partial System Outage`, etc.
 
+### Thanks
+
+This plugin is inspired from https://github.com/tmux-plugins/tmux-battery .
+
 ### License
 
 [MIT](LICENSE.md)
